@@ -4,7 +4,10 @@ export default function Home() {
   return (
     <main style={{ padding: '2rem', fontFamily: 'sans-serif' }}>
       <h1>Hello World</h1>
-      <Link href="/experiences">View Student Experiences</Link>
+      <nav style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+        <Link href="/experiences">View Student Experiences</Link>
+        <Link href="/captions">Rate Captions</Link>
+      </nav>
     </main>
   )
 }

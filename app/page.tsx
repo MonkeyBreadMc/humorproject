@@ -7,6 +7,7 @@ export default function Home() {
       <nav style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
         <Link href="/experiences">View Student Experiences</Link>
         <Link href="/captions">Rate Captions</Link>
+        <Link href="/generate">Generate Captions</Link>
       </nav>
     </main>
   )
